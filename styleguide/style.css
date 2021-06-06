@@ -1,0 +1,153 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=PTSerif);
+
+
+body, p {
+  background: white;
+  font-family: "PT Serif";
+  line-height: 1.5;
+}
+
+header, main {
+  margin: 2rem;
+}
+
+/* Swatches */
+.swatchgrid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.swatchgrid.colors li {
+  width: 20%;
+  height: 100px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.swatchgrid.textures li {
+  width: 33%;
+  box-sizing: border-box;
+  height: 200px;
+  margin: auto;
+}
+
+
+.color-swatch-1 {
+  background: #FFDA85;
+}
+
+.color-swatch-2 {
+  background: #B4D2E7;
+}
+
+.color-swatch-3 {
+  background: #94c5cc;
+}
+
+.color-swatch-4 {
+  background: #a1a6b4;
+}
+
+.color-swatch-5 {
+  background: #000100;
+}
+
+
+/* Typography */
+
+h1, h2, h3, h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font:  4em/1 "Poppins", bold;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    padding-right: .75em;
+}
+h2 {
+    font: 1.3em "Poppins";
+}
+  
+h3 {
+  font: 500 2.4em/1.25 "Poppins";
+  color: #4e4e4e;
+}
+
+h4 {
+  font: italic 1.5em/1.25 "Poppins";
+  color: #4e4e4e;
+}
+
+p, .body-copy {
+  font-size: 1.1em;
+  line-height: 1.7em;
+  color: #222;
+  margin-bottom: 1em;
+}
+.body-copy strong {
+  font-weight: 600;
+}
+.body-copy em {
+  font-style: italic;
+}
+
+/* Values: Can your colors and fonts communicate a value? */
+.adjectives p {
+  margin-top: 10px;
+  font-family: "PT Serif";
+}
+.adjective-1 {
+  color: #B4D2E7;
+}
+
+.adjective-2 {
+  color: #94c5cc;
+}
+
+.adjective-3 {
+  color: #FFDA85;
+}
+
+
+/* Buttons */
+.button-1, .button-2 {
+  display: inline-block;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  border-radius: 4px;
+}
+
+.button-1 {
+  background: #94c5cc;
+  text-align: center;
+  text-decoration: none;
+  font: bold 0.9em "Poppins";
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-shadow: 0px -1px 0px black;
+  transition: all .2s ease;
+}
+.button-1:hover {
+  background: #a1a6b4;
+}
+
+.button-2 {
+  background: #a1a6b4;
+  text-align: center;
+  text-decoration: none;
+  font: 0.9em "Poppins";
+  letter-spacing: 1px;
+  color: #94c5cc;
+  text-transform: uppercase;
+  text-shadow: 0px 1px 0px white;
+  transition: all .2s ease;
+}
+
+.button-2:hover {
+  background: black;
+}
